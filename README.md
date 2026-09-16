@@ -44,6 +44,8 @@ Windows Security Events → Wazuh Agent → Wazuh Manager → Wazuh Indexer → 
 
 The Ubuntu VM was configured using VirtualBox bridged networking. This allowed the VM to operate as a separate system on the local network and communicate directly with the monitored Windows endpoint.
 
+![VirtualBox Bridged Network](Screenshots/01-virtualbox-bridged-network.png)
+
 UFW was configured using a default-deny approach for inbound traffic. Only ports required by the lab services were permitted.
 
 Key Wazuh communication included:
